@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #145434;
+}
+
+body {
+    background-color: #FFF257;
+    min-height: 100vh;
+    font-family: Roboto;
+    margin-left: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #FFF257 !important;
+    font-size: 36px !important;
+    background-color: #33793f;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    height: 100%;
+    width: 60px;
+}
+
+.nav {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #FFF257 !important;
+    font-size: 36px !important;
+    border: none;
+    border-radius: 50%;
+    background-color: #33793f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.main-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px 20px;
+    padding: 100px 50px;
+}
+
+.card {
+    width: 370px;
+    color: #FFF257;
+    position: relative;
+}
+
+
+.card-details {
+    border: 1px solid #33793f;
+    padding: 20px 20px 60px 20px;
+}
+
+.card-title {
+    color: #33793f;
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.button {
+    background-color: #33793f;
+    color: #FFF257;
+    width: 100%;
+    border-bottom: 1px solid #33793f;
+    border-right: 1px solid #33793f;
+    border-left: 1px solid #33793f;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.button:hover {
+    color: #33793f;
+    background-color: #FFF257;
+}
+
+.button span {
+    color: #FFF257;
+}
+
+.button:hover span {
+    color: #33793f;
+}
+
+.sub {
+    color: #FFF257;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font-size: 12px;
+    background-color: #33793f;
+    padding: 10px 6px;
+}
